@@ -30,7 +30,7 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   ORGANIC_PRODUCE.sort
   CONVENTIONAL_PRODUCE.sort
-  food = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
+  food = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   return food
 end
 
